@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.countainer {
+    width: 70vi;
+    height: auto;
+    margin-top: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+
+}
+
+.banner {
+    background-image: url(cooking-banner-7166200_1280.jpg);
+    background-color: rgb(139, 139, 139);
+    height: 20vh;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.banner h1 {
+    padding-top: 5vh;
+    padding-left: 50vh;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    font-size: 400%;
+    letter-spacing: 3px;
+}
+
+.banner p {
+    padding-left: 56vh;
+    padding-top: 1px;
+    font-size: larger;
+    font-size: 150%;
+    letter-spacing: 3px;
+
+}
+
+.middle {
+    margin-top: 1vh;
+
+}
+
+.links {
+    width: 15%;
+    /* background-color: khaki; */
+    height: auto;
+    float: left;
+    margin: 0px;
+    position: fixed;
+}
+
+.links .menu {
+    list-style-type: none;
+}
+
+.links .menu li {
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    transition: 0.5s;
+}
+
+.links .menu li:hover {
+
+    background-color: rgb(255, 145, 0);
+
+}
+
+.links .menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.links .menu a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    width: 72%;
+    margin-left: 1%;
+    padding: 1%;
+    min-height: auto;
+    /* background-color: aqua; */
+    float: right;
+}
+
+.content h1.title {
+    margin-left: 17vw;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.content p{
+    text-align: justify;
+    text-indent: 100px;
+}
+
+
+.footer {
+    min-height: 50px;
+    /* background-color: lightblue;*/
+    margin-top: 1vh;
+}
+
+.footer p {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.cookmancontainer1{
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+.cookman1{
+    background-image: url(istockphoto-1440343708-612x612.jpg);
+    width: 200px;
+    height: 6400px;
+    background-size: 200px 200px;
+    
+}
+
+.cookman2{
+    background-image: url(istockphoto-1440343708-612x612.jpg);
+    width: 200px;
+    height: 6400px;
+    background-size: 200px 200px;
+}
+.cookmancontainer2{
+    width: 200px;
+    height: auto;
+    float: right;
+}
